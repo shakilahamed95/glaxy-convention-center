@@ -1,0 +1,15 @@
+li{
+    list-style: none;
+}  
+li:before {
+    content: '✓';
+  }
+  #box-position{
+      position: relative;
+      top: -30px;
+ }
+ #badge-position{
+     position: relative;
+     top: -10px;
+     left: 250px;
+ }
