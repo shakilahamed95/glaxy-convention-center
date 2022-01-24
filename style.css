@@ -1,3 +1,7 @@
+#body-color{
+    background-color: #F3F1FF;
+}
+
 li{
     list-style: none;
 }  
@@ -13,6 +17,22 @@ li:before {
      top: -10px;
      left: 250px;
  }
+ .package{
+    width: 232px;
+    height: 387px;
+    background-color: #FCECEA;
+ }
+ .button{
+    background-image: linear-gradient(to bottom, #139CDC 0%, #139CDC 100%);
+    border-radius: 8px;
+    padding: 9px 25px;
+    border: none;
+    }
+    .btn:hover{
+        transform: scale(1.2);
+        transition: transform, 1s;
+        color: white;
+    }
  .footer-logo{
      width: 135px;
      height: 40px;
