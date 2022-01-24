@@ -20,7 +20,7 @@ li:before {
  .package{
     width: 232px;
     height: 387px;
-    background-color: #FCECEA;
+    background-color: #F8EDED;
  }
  .button{
     background-image: linear-gradient(to bottom, #139CDC 0%, #139CDC 100%);
