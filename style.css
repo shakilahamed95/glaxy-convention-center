@@ -7,20 +7,20 @@ li{
 }  
 li:before {
     content: '✓';
-  }
+}
   #box-position{
       position: relative;
-      top: -40px;
+      top: -50px;
+      background-color: #139CDC;
  }
  #badge-position{
      position: relative;
      top: -10px;
-     left: 250px;
+     left: 230px;
  }
- .package{
-    width: 232px;
-    height: 387px;
-    background-color: #F8EDED;
+ .package:hover{
+    transform: scale(1.1);
+    transition: transform, 0.8s;
  }
  .button{
     background-image: linear-gradient(to bottom, #139CDC 0%, #139CDC 100%);
@@ -41,20 +41,3 @@ li:before {
      width: 100%;
      height: 180px;
  }
- /* @media only screen and(max-width:700px) {
-    .carousel-caption h1{
-        font-size: 12px;
-    }
-    .carousel-caption h5{
-        font-size: 10px;
-    }
-    padding-top: 20px;
-    padding-bottom: 0px;
-     
- }
- @media only screen and(max-width:400px) {
-    .carousel-caption h1{
-        font-size: 12px;
-    }
-     
- } */
